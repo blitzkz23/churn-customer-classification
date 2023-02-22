@@ -27,3 +27,4 @@ Overall, Telecom Churn Classification is a critical aspect of customer relations
 ## Project Aim:
 - Classify potential churn customer based on numerical and categorical features
 - Solve binary classification problem with imbalanced dataset
+- Create web application to simulate the classification function
