@@ -24,7 +24,7 @@ Overall, Telecom Churn Classification is a critical aspect of customer relations
 - Total Charges: Indicates the customer’s total charges, calculated to the end of the quarter specified above.
 - Churn Label: Yes = the customer left the company this quarter. No = the customer remained with the company. Directly related to Churn Value.
 
-## Project Aim:
+## Project Aim
 - Classify potential churn customer based on numerical and categorical features
 - Solve binary classification problem with imbalanced dataset
 - Create web application to simulate the classification function
