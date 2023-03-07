@@ -28,3 +28,9 @@ Overall, Telecom Churn Classification is a critical aspect of customer relations
 - Classify potential churn customer based on numerical and categorical features
 - Solve binary classification problem with imbalanced dataset
 - Create web application to simulate the classification function
+
+## Conclusion
+- Working with this dataset is a bit challenging, one of the reasons is because of the imbalanced labels. This is my first time using SMOTE analysis for data balancing and it boost the model performance by considerable amounts.
+- There are still more insight that could be gain by doing more detailed EDA
+- In the context of a churn prevention system, a high recall score indicates that the model is able to identify a high proportion of customers who are actually churning, which is important because it means that more customers who are at risk of churning can be targeted with retention efforts. A high precision score, on the other hand, indicates that the model is able to identify customers who are likely to churn with a high degree of accuracy, which helps to minimize the number of customers who are unnecessarily targeted with retention efforts.
+- On this project we are focusing on model with high recall score and somewhat balance precision score, because we want to predict as much potential churn customer and prevent them from churning, while not disturbing customer that actually not churn with annoying campaign than can make them churn instead (false positive). And the Logistic Regression model that we've built fit that criteria.
